@@ -1,8 +1,8 @@
 # 1. Introducción al ecosistema de la programación
-##1.1 ¿Qué es un lenguaje de programación?
+## 1.1 ¿Qué es un lenguaje de programación?
 Son una serie de reglas gramaticales bien definidas que permiten al programador escribir una serie de instrucciones (algoritmos) y nos permiten controlar un sistema. 
 
-##1.2 Tipos de paradigmas de programación
+## 1.2 Tipos de paradigmas de programación
 
 - **Imperativos**: Son una serie de instrucciones que van definiendo paso a paso lo que va haciendo un sistemas. Por ejemplo, una receta de cocina es imperativo.  
 - **Declarativos**: Se centra en cual va a ser el resultado final. Se centra en el qué, en lugar del cómo. Por ejemplo, la foto final del pato o el plato terminado de la receta anterior. 
@@ -30,7 +30,7 @@ names = [...programmerList]
 | Imperativo    | 👍               |👍                               |                                         |
 | Declarativo   |                     |                                  |           👍                            |
 
-##1.3 División por niveles de los lenguajes de programación
+## 1.3 División por niveles de los lenguajes de programación
 Los lenguajes de programación se pueden clasificar por niveles, dependiendo de  la especificidad que tiene cada uno. Cuanto más bajo sea el nivel, más características específicas vamos a poder tocar a nivel hardware, es decir, dentro del ordenador. Por eso tenemos una división por niveles que es la siguiente: 
 
 1. **Lenguaje máquina** :Es el lenguaje de programación de nivel más bajo que un ordenador puede entender. Es un conjunto de instrucciones binarias (1 y 0), que representan operaciones muy básicas que pueden ser ejecutadas por la unidad de procesamiento central (CPU) de un ordenador. Cada combinación de ceros y unos representa una acción específica que puede hacer, como sumar dos números o guardar información en la memoria.
@@ -43,7 +43,7 @@ Los lenguajes de programación se pueden clasificar por niveles, dependiendo de 
 
 5. **Lenguajes de alto nivel**: Están basados en lenguajes de medio nivel (frameworks: es decir una serie de funcionalidades extras que se han añadido a los programas que ya conocemos en base a librerías para que programar con estos lenguajes sea, incluso más fácil). 
 
-##1.4 Proceso de conversión
+## 1.4 Proceso de conversión
 Como hemos visto en el punto anterior, los ordenadores solo entienden 1 y 0, por lo tanto, cuando nosotros programamos con cualquier lenguaje de programación lo que necesitamos es un "traductor", algo que nos ayude a transformar nuestras líneas de código en algo que sea legible por el ordenador. 
 
 Existen dos formas para hacer esta traducción: 
@@ -53,13 +53,13 @@ Existen dos formas para hacer esta traducción:
 - **Los intérpretes**:  A diferencia del compilador se interpreta en tiempo real. Si existiera algún error no se para. Sale el error normalmente por pantalla. 
 
 
-##1.5 IDEs (Entorno de desarrollo integrado)
-###1.5.1 ¿Qué es un IDEs (Entorno de desarrollo integrado)?
+## 1.5 IDEs (Entorno de desarrollo integrado)
+### 1.5.1 ¿Qué es un IDEs (Entorno de desarrollo integrado)?
 Un IDE (Entorno de Desarrollo Integrado, por sus siglas en inglés) es como el bloc de notas básico pero con "esteroides" con muchas más características que este bloc de notas. Un IDE proporciona un conjunto completo de características y funcionalidades para facilitar el desarrollo de software. Un IDE es un programita que combina un editor de texto, un compilador o intérprete (dependiendo del lenguaje que estemos utilizando), y otras herramientas útiles en una interfaz gráfica.
 
 Existen varios IDEs pero el más utilizado hoy en día es el [VSC ( Visual Studio Code)](https://code.visualstudio.com/) o [Atom](https://atom.en.softonic.com/) es otro de los IDEs más utilizados. 
 
-##1.6 Control de versiones
+## 1.6 Control de versiones
 El control de versiones es un sistema que registra y administra los cambios realizados en los archivos de un proyecto a lo largo del tiempo. Su objetivo principal es mantener un historial de las modificaciones, permitiendo rastrear quién hizo qué cambios, cuándo se hicieron y facilitando la colaboración entre múltiples personas en un proyecto de desarrollo de software u otras formas de trabajo colaborativo. 
 
 Si nosotros como programadores, no utilizáramos a la hora de trabajar un sistema de control de versiones sería un auténtico CAOS. Imagina que tenemos un archivo, lo modificamos y ahora nuestro programa deja de funcionar, sin un sistema de control de versiones no podríamos ir a la versión anterior.  
