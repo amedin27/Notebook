@@ -29,3 +29,23 @@ test("Prueba de suma", () =>{
 })
 
 ```
+
+## 9.1- Test de cajas:
+A continuación vamos a ver tres tipos de técnicas para testear
+- Test de la caja negra: Consiste en tratar la app como una caja negra. Es decir, no sé lo que hay dentro. En este caso testeamos la entrada y la salida. Nosotros queremos que para un tipo de entrada haya un tipo de salida. 
+- Test de la caja blanca: Consiste en ver lo que está ocurriendo por dentro. En este caso cuando le damos una entrada nos interesa ver los pasos que está haciendo esa entrada. Nos enfocamos en el camino que recorre la app, desde el punto de vista del código. El enfoque principal está en el comportamiento interno. 
+- Test de la caja gris: Consiste en juntar los test de la caja negra y la caja blanca. En este caso tenemos una entrada que seguimos por dentro y testeamos además, cuál es la salida de este software. Es como una especie de técnica mixta entre las dos. 
+
+## 9.2- Test funcionales y no funcionales:
+- Test funcional: Lo que hace es testear todas las funcionalidades que se supone que nuestra app debe cumpilr. Además, debe testear los requerimientos del cliente pero también los errores.  
+- Test no funcional: Se testea todo lo que hay alrededor. Por ejemplo los test de rendimiento o lo tiempos de carga de la app. El Stress test, la escalabilidad.... También debe de testearse la accesibilidad , la parte de UX y UI y test de seguridad.  
+
+
+## 9.3- Modelos de testing:
+- Modelo de testing en cascada o lineal (Waterfall): El modelo de testing en cascada es un enfoque de desarrollo de software en el que las actividades de testing se realizan secuencialmente, siguiendo el flujo de trabajo lineal del modelo en cascada. Este modelo se caracteriza por tener fases claramente definidas y secuenciales, donde cada fase se inicia después de que la fase anterior se haya completado. 
+- Modelo de testing repetitivo o iterativo: Suele estar definidos por Sprints de 2 semanas.  El modelo de testing repetitivo o iterativo es un enfoque de desarrollo de software en el que las actividades de testing se realizan de manera iterativa y repetitiva a lo largo de todo el ciclo de vida del proyecto. A diferencia del modelo en cascada, que sigue una secuencia lineal de fases, el modelo iterativo permite la retroalimentación y la mejora continua a medida que se desarrolla y prueba el software.
+- Modelo de testing en V: El modelo de testing en V es un enfoque de pruebas que se basa en el modelo de desarrollo en cascada y enfatiza la relación entre las actividades de desarrollo y de pruebas. El modelo toma su nombre de la forma en V que se forma al representar gráficamente las actividades de desarrollo y pruebas a medida que avanza el proceso de desarrollo de software.
+- Modelo de testing en espiral:
+El modelo de testing en espiral es un enfoque de desarrollo y testing de software que combina elementos del modelo en cascada y el modelo iterativo. Se basa en el concepto de iteraciones controladas y se enfoca en la gestión de riesgos a lo largo del ciclo de vida del proyecto.
+
+El modelo de testing en espiral sigue un enfoque cíclico donde las actividades de desarrollo y testing se realizan en múltiples iteraciones, conocidas como espirales. Cada espiral representa un ciclo completo de desarrollo, que incluye la planificación, el análisis de riesgos, el desarrollo, el testing y la evaluación.
